@@ -1,0 +1,3 @@
+/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/x86_64/CMakeFiles/rebuild_cache.dir
+/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/x86_64/CMakeFiles/edit_cache.dir
+/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/x86_64/CMakeFiles/gesture-decoder-lib.dir

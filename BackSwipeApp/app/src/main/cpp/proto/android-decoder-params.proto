@@ -1,0 +1,89 @@
+// Defines messages representing the Android decoder's configuration.
+
+syntax = "proto2";
+
+package proto;
+
+import "decoder-params.proto";
+
+message DynamicLmParams {
+  // The fixed prefix log probability used by the dynamic LMs.
+  optional float fixed_prefix_logp = 6 [default = -10.0];
+
+  // The maximum n-gram order for dynamic LMs.
+  optional int32 max_ngram_order = 7 [default = 3];
+
+  // The target size when pruning the dynamic lexicon. This should be smaller
+  // than dynamic_lexicon_prune_trigger_size to allow the lexicon some room
+  // to grow (and newly added terms some time to accumulate counts) before the
+  // lexicon needs to be pruned again.
+  optional int32 lexicon_target_size = 8 [default = 10000];
+
+  // The size at which we start to prune the lexicon (back down to
+  // dynamic_lexicon_target_size).
+  optional int32 lexicon_prune_trigger_size = 9 [default = 12000];
+
+  // The absolute maximum lexicon size for dynamic LMs. Once this limit is
+  // reached no new terms will be added, though counts for existing terms
+  // can still be updated. Must be greater than dynamic_lexicon_target_size and
+  // dynamic_lexicon_prune_trigger_size.
+  optional int32 lexicon_max_size = 10 [default = 13000];
+
+  // Whenever the user deletes/corrects/reverts a word, the user history
+  // model will decrement the word's count by this rate. Note that the
+  // learning rate is always equal to 1, so setting this to greater than 1 will
+  // cause the keyboard to unlearn more aggressively (thus reducing the risk of
+  // persistent typos in the user history). Should be set explicitly by clients.
+  optional int32 unlearning_rate = 11 [default = 1];
+
+  // The minimum normalization count when computing unigram probabilities.
+  // This smoothing factor prevents the model from over-estimating probabilities
+  // when it hasn't observed enough data.
+  //
+  // E.g., p(a) = count(a) / max(min_count, count(*))
+  optional int32 min_normalization_count_for_unigrams = 12 [default = 10000];
+
+  // The minimum normalization count when computing higher order n-gram
+  // probabilities. This smoothing factor prevents the model from over-
+  // estimating conditional probabilities when it hasn't observed enough data.
+  //
+  // E.g., p(b|a) = count(a,b) / max(min_count, count(a))
+  optional int32 min_normalization_count_for_ngrams = 13 [default = 100];
+}
+
+message AndroidDecoderParams {
+  // The DecoderParams for the underlying decoder.
+  optional DecoderParams decoder_params = 1;
+
+  // The internal.base autocorrection threshold (for tap typing only). When the top
+  // result's score is above the autocorrect_threshold, the decoder returns
+  // an autocorrect_confidence that is above 0.5 (autocorrect suggested).
+  //
+  // The autocorrect_confidence is scaled such that:
+  // autocorrect_confidence = min(1.0, autocorrect_threshold / top_score * 0.5)
+  //
+  // Examples:
+  //   top_score >= autocorrect_threshold / 2,    autocorrect_confidence = 1.0
+  //   top_score == autocorrect_threshold,        autocorrect_confidence = 0.5
+  //   top_score == autocorrect_threshold * 2,    autocorrect_confidence = 0.25
+  //
+  // TODO(ouyang): Consider/evaluate more advanced autocorrection logic.
+  optional float autocorrect_threshold_base = 2 [default = -10.0];
+
+  // The adjustment to the autocorrection threshold for each tap.
+  // This is to account for the additional negative spatial score that we
+  // expect to accumulate for each new tap.
+  optional float autocorrect_threshold_adjustment_per_tap = 3 [default = -2.0];
+
+  // The interpolation weight for the static (i.e., main language) LMs.
+  optional float static_lm_interpolation_weight = 4 [default = 1.0];
+
+  // The default interpolation weight for the dynamic LMs.
+  optional float dynamic_lm_interpolation_weight = 5 [default = 0.2];
+
+  optional DynamicLmParams dynamic_lm_params = 6;
+
+  // Should the decoder block potentially offensive words from showing up in
+  // the suggestion strip.
+  optional bool block_offensive_words = 7;
+}

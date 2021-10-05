@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/menuLayout">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridTitle1">
+
+        <TextView
+            android:id="@+id/tile00"
+            style="@style/Tile"
+            android:text="1"/>
+
+        <TextView
+            android:id="@+id/tile01"
+            style="@style/Tile"
+            android:text="2"/>
+
+        <TextView
+            android:id="@+id/tile02"
+            style="@style/Tile"
+            android:text="3"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridTitle2">
+
+        <TextView
+            android:id="@+id/tile10"
+            style="@style/Tile"
+            android:text="4"/>
+
+        <TextView
+            android:id="@+id/tile11"
+            style="@style/Tile"
+            android:background="@color/secondaryColor"
+            android:text=""/>
+
+        <TextView
+            android:id="@+id/tile12"
+            style="@style/Tile"
+            android:text="5"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridTitle4">
+
+        <TextView
+            android:id="@+id/tile20"
+            style="@style/Tile"
+            android:text="6"/>
+
+        <TextView
+            android:id="@+id/tile21"
+            style="@style/Tile"
+            android:text="7"/>
+
+        <TextView
+            android:id="@+id/tile22"
+            style="@style/Tile"
+            android:text="8"/>
+    </LinearLayout>
+
+</LinearLayout>

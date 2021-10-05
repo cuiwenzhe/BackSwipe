@@ -1,0 +1,301 @@
+[
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/GestureDecoder.cpp.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/GestureDecoder.cpp",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/GestureDecoder.cpp"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/gesture-decoder-lib.cpp.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/gesture-decoder-lib.cpp",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/gesture-decoder-lib.cpp"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/codepoint-node.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/codepoint-node.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/codepoint-node.cc"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/math-utils.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/math-utils.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/math-utils.cc"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/result-utils.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/result-utils.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/result-utils.cc"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/token.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/token.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/token.cc"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/touch-sequence.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/touch-sequence.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/touch-sequence.cc"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/base/ascii_ctype.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/ascii_ctype.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/ascii_ctype.cc"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/base/charset.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/charset.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/charset.cc"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/base/city.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/city.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/city.cc"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/base/escaping.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/escaping.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/escaping.cc"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/base/hash.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/hash.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/hash.cc"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/base/int128.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/int128.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/int128.cc"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/base/jenkins.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/jenkins.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/jenkins.cc"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/base/join.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/join.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/join.cc"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/base/latinime-charconverter.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/latinime-charconverter.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/latinime-charconverter.cc"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/base/logging.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/logging.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/logging.cc"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/base/memutil.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/memutil.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/memutil.cc"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/base/numbers.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/numbers.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/numbers.cc"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/base/offsetmap.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/offsetmap.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/offsetmap.cc"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/base/quantizer.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/quantizer.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/quantizer.cc"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/base/scoped_mmap.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/scoped_mmap.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/scoped_mmap.cc"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/base/strcat.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/strcat.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/strcat.cc"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/base/stringpiece.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/stringpiece.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/stringpiece.cc"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/base/stringprintf.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/stringprintf.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/stringprintf.cc"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/base/strtoint.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/strtoint.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/strtoint.cc"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/base/strutil.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/strutil.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/strutil.cc"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/base/unicodetext.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/unicodetext.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/unicodetext.cc"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/base/unilib.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/unilib.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/unilib.cc"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/base/utf8statetable.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/utf8statetable.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/utf8statetable.cc"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/base/util.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/util.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/util.cc"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/keyboardSetting/keyboard-layout-tools.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/keyboardSetting/keyboard-layout-tools.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/keyboardSetting/keyboard-layout-tools.cc"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/keyboardSetting/keyboard.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/keyboardSetting/keyboard.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/keyboardSetting/keyboard.cc"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/languageModel/case.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/languageModel/case.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/languageModel/case.cc"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/languageModel/constants.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/languageModel/constants.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/languageModel/constants.cc"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/languageModel/encodingutils.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/languageModel/encodingutils.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/languageModel/encodingutils.cc"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/languageModel/interpolated-lm.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/languageModel/interpolated-lm.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/languageModel/interpolated-lm.cc"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/languageModel/marisa-bitvector.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/languageModel/marisa-bitvector.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/languageModel/marisa-bitvector.cc"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/languageModel/marisa-io.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/languageModel/marisa-io.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/languageModel/marisa-io.cc"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/languageModel/rune.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/languageModel/rune.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/languageModel/rune.cc"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/languageModel/split.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/languageModel/split.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/languageModel/split.cc"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/languageModel/marisa/bit-vector.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/languageModel/marisa/bit-vector.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/languageModel/marisa/bit-vector.cc"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/languageModel/marisa/mapper.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/languageModel/marisa/mapper.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/languageModel/marisa/mapper.cc"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/languageModel/marisa/precomputed-table.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/languageModel/marisa/precomputed-table.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/languageModel/marisa/precomputed-table.cc"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/languageModel/marisa/reader.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/languageModel/marisa/reader.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/languageModel/marisa/reader.cc"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/languageModel/marisa/writer.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/languageModel/marisa/writer.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/languageModel/marisa/writer.cc"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/Louds/louds-lexicon-adapter.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/Louds/louds-lexicon-adapter.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/Louds/louds-lexicon-adapter.cc"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/Louds/louds-lexicon.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/Louds/louds-lexicon.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/Louds/louds-lexicon.cc"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/Louds/louds-lm-adapter.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/Louds/louds-lm-adapter.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/Louds/louds-lm-adapter.cc"
+},
+
+{
+  "directory": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgesture_decoder_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/gesture-decoder-lib.dir/internal/Louds/louds-lm.cc.o -c /Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/Louds/louds-lm.cc",
+  "file": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/Louds/louds-lm.cc"
+}
+]

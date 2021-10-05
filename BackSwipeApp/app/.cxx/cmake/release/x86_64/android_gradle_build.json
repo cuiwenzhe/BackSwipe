@@ -1,0 +1,289 @@
+{
+  "stringTable": {
+    "0": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/x86_64",
+    "1": "--target=x86_64-none-linux-android24 --gcc-toolchain=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dgesture_decoder_lib_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -O2 -DNDEBUG -fPIC"
+  },
+  "buildFiles": [
+    "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/build/cmake/platforms.cmake",
+    "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake",
+    "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/cuiwenzhe/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/x86_64\" clean"
+  ],
+  "buildTargetsCommand": "/Users/cuiwenzhe/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "gesture-decoder-lib-Release-x86_64": {
+      "buildCommand": "/Users/cuiwenzhe/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/.cxx/cmake/release/x86_64\" gesture-decoder-lib",
+      "buildType": "release",
+      "toolchain": "582437221",
+      "abi": "x86_64",
+      "artifactName": "gesture-decoder-lib",
+      "files": [
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/GestureDecoder.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/gesture-decoder-lib.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/codepoint-node.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/math-utils.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/result-utils.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/token.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/touch-sequence.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/ascii_ctype.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/charset.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/city.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/escaping.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/hash.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/int128.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/jenkins.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/join.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/latinime-charconverter.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/logging.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/memutil.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/numbers.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/offsetmap.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/quantizer.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/scoped_mmap.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/strcat.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/stringpiece.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/stringprintf.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/strtoint.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/strutil.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/unicodetext.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/unilib.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/utf8statetable.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/base/util.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/keyboardSetting/keyboard-layout-tools.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/keyboardSetting/keyboard.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/languageModel/case.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/languageModel/constants.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/languageModel/encodingutils.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/languageModel/interpolated-lm.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/languageModel/marisa-bitvector.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/languageModel/marisa-io.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/languageModel/rune.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/languageModel/split.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/languageModel/marisa/bit-vector.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/languageModel/marisa/mapper.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/languageModel/marisa/precomputed-table.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/languageModel/marisa/reader.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/languageModel/marisa/writer.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/Louds/louds-lexicon-adapter.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/Louds/louds-lexicon.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/Louds/louds-lm-adapter.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/src/main/cpp/internal/Louds/louds-lm.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/Users/cuiwenzhe/AndroidStudioProjects/simplegesturedecoder/app/build/intermediates/cmake/release/obj/x86_64/libgesture-decoder-lib.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "582437221": {
+      "cppCompilerExecutable": "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cc",
+    "cpp"
+  ]
+}

@@ -1,0 +1,203 @@
+// Defines messages representing the keyboard decoder algorithm's configuration.
+
+syntax = "proto2";
+
+package proto;
+// Spatial model parameters specific to gesture input.
+message GestureSpatialParams {
+  // The standard deviation of the error between the gesture path and the
+  // intended key centers, as a fraction of the most common key width. A
+  // lower value means a higher penalty for deviating away from the keys.
+  optional float key_error_sigma = 1 [default = 0.9];
+
+  // The standard deviation of the error in the direction of the gesture,
+  // relative to the ideal direction between pairs of intended keys. A
+  // lower value means a higher penalty for gesturing in a direction that
+  // does not match the ideal path.
+  optional float direction_error_sigma = 2 [default = 0.7];
+
+  // A score penalty for skipping (i.e. treating as an in-transit point)
+  // a touch point where the user paused.
+  optional float skip_pause_score = 3 [default = -2.0];
+
+  // A score penalty for skipping (i.e. treating as an in-transit point)
+  // a touch point that is considered a corner.
+  optional float skip_corner_score = 4 [default = -4.0];
+
+  // The minimum spatial score for a gesture to be considered a precise match.
+  //
+  // For imprecise gesture matches, we negatively adjust the spatial model
+  // score distinguish them from matches where the user is gesturing carefully.
+  // Otherwise, some words can become essentially un-gesturable because they are
+  // always mis-recognized as a similar (but much more frequent) competing word
+  // (e.g., "three"/"the", "I'd"/"is").
+  optional float precise_match_threshold = 6 [default = -2.0];
+
+  // The maximum spatial score penalty for imprecise gesture matches.
+  //
+  // The per-term adjustment scales linearly within the spatial score:
+  // For a messy gesture (spatial_score <= precise_match_threshold):
+  //    penalty = max_imprecise_match_penalty
+  // For a relatively precise gesture (spatial_score == threshold * 0.5):
+  //    penalty = max_precise_match_adjustment * 0.5
+  // For a perfect gesture (spatial_score == 0.0):
+  //    penalty = 0
+  optional float max_imprecise_match_penalty = 7 [default = -4.0];
+
+  // Parameters related to the touch sequence geometry:
+
+  // The minimum curvature for a point to be considered a corner. Note that
+  // corners must also be a local maxima in curvature.
+  optional float min_curvature_for_corner = 10 [default = 0.392699]; // (PI/4)
+
+  // A point may be a pause if its duration is greater than this value.
+  // Note that pauses must also be a local maxima in duration.
+  optional float pause_duration_in_millis = 11 [default = 200];
+
+  // Exclude this number of points from the start and end of the touch sequence
+  // when search for local maxima.
+  optional float endpoint_offset_for_maxima = 12 [default = 2];
+
+  // A token's alignment score needs to be above this value for the decoder to
+  // consider the possibility that it has already reached the next key. If so,
+  // the token will be passed to its child nodes. Otherwise it will only be
+  // passed to itself (i.e., considered still in-transit).
+  optional float min_align_key_score = 13 [default = -8.0];
+
+  // The extra spatial score penalty for performing an auto-completion.
+  optional float completion_score = 14 [default = -4.0];
+
+  // The extra spatial score weight for the first point.
+  optional float first_point_weight = 15 [default = 2.0];
+
+  // Whether to allow multi-term decoding (e.g., composing multiple words in a
+  // single gesture).
+  optional bool allow_multi_term = 16 [default = false];
+
+  // Whether multi-term decoding requires users to gesture through the space key
+  // between words. If this false, multi-term decoding will not use the space
+  // key at all. Has no effect if allow_multi_term is false.
+  optional bool use_space_for_multi_term = 17 [default = false];
+
+  // The minimum alignment score to the space key for multi-term decoding. This
+  // can require the user to gesture very close to the spacebar before the
+  // decoder considers a multi-term phrase candidate. A lower value can reduce
+  // false word segmentations and improve performance. Note: Has no effect if
+  // allow_multi_term or use_space_for_multi_term is false.
+  optional float min_space_align_score = 18 [default = -1.0];
+
+  // The spatial score penalty for each extra term generated in a multi-term
+  // continuous gesture. This is applied regardless of use_space_for_multi_term.
+  optional float extra_term_score = 19 [default = 0.0];
+}
+
+// Spatial model parameters specific to tap typing input.
+message TapSpatialParams {
+  // The standard deviation of key tap errors, as a fraction of the most
+  // common key width.
+  optional float key_error_sigma = 1 [default = 0.7];
+
+  // The extra spatial score penalty for an non-literal match.
+  optional float non_literal_match_penalty = 2 [default = -4.0];
+
+  // The extra spatial score penalty for an omission.
+  optional float omission_score = 3 [default = -5.0];
+
+  // The score penalty for omitting a skippable char (e.g., apostrophes).
+  optional float omission_skippable_score = 4 [default = -0.5];
+
+  // The extra spatial score penalty for an insertion.
+  optional float insertion_score = 5 [default = -8.0];
+
+  // The score penalty for a non-neighboring substitution. This acts as a
+  // limit on how much the decoder will penalize substitutions with far-away
+  // keys (e.g., 'e'->'o'), allowing them be preserved in the search space.
+  optional float substitution_score = 6 [default = -8.0];
+
+  // The minimum align score to consider a touch alignment to a key.
+  optional float min_align_key_score = 7 [default = -8.0];
+
+  // The extra spatial score penalty for performing an auto-completion.
+  optional float completion_score = 8 [default = -2.0];
+
+  // Whether to consider multi-term candidates for the spaceless input.
+  optional bool allow_multi_term = 9 [default = true];
+
+  // The spatial score penalty for each extra term generated as a correction
+  // (e.g., an omitted space or nonspace_to_space substitution). Note that
+  // extra terms that occur naturally from user typed spaces are not penalized.
+  optional float extra_term_score = 10 [default = 0.0];
+
+  // The spatial score penalty for correcting a space to a non-space.
+  // TODO(ouyang): Test and optimize this parameter.
+  optional float space_to_nonspace_correction_score = 11 [default = -8.0];
+}
+
+// Parameters used by the keyboard decoding algorithm.
+message DecoderParams {
+  // This field specifies the minimum distance between subsampled touch
+  // points relative to the most common key width.  The lower this value,
+  // the more touch points there will be to align and the longer the
+  // decoding algorithm will take.
+  optional float sample_distance_in_key_widths = 1 [default = 0.25];
+
+  // TODO(ouyang): Refactor the following params into a separate SearchParams
+  // sub-message: beam_width(s), token_pool_capacity, score_to_beat(s),
+  // prefix_lm_weight.
+
+  // The width of the beam used for active search states. At each point in time,
+  // the decoder will advance at most this many states.
+  optional int32 active_beam_width = 2 [default = 100];
+
+  // The width of the beam used for prefix states. The decoder will generate
+  // completions for these top-n prefixes.
+  optional int32 prefix_beam_width = 3 [default = 3];
+
+  // The maximum number of tokens that the decoder can maintain at any time.
+  // While only the top 'active_beam_width' tokens are advanced each time frame,
+  // more tokens are used to represent intermediate states during decoding.
+  // Note that the algorithm starts pruning low-scoring tokens when the capacity
+  // is reached. For environments where memory is plentiful, a pool capacity of
+  // about 20x the active_beam_width is usually enough to avoid pruning.
+  optional int32 token_pool_capacity = 4 [default = 1000];
+
+  // The number of candidate terms the decoder should return.
+  optional int32 num_suggestions_to_return = 5 [default = 20];
+
+  // A token must score higher than the best token plus this value to be
+  // considered, otherwise it will be pruned from the search.
+  optional float score_to_beat_offset = 6 [default = -12.0];
+
+  // A token must score higher than the best token plus this value to be
+  // considered as a correction (e.g., insertions, omissions, etc).
+  optional float score_to_beat_offset_for_corrections = 7 [default = -6.0];
+
+  // The weight for the prefix language model when scoring a token. Typically,
+  // this should be significantly lower than 1.0 since when it is used, the
+  // decoder hasn't taken into account the full language model context or any
+  // future changes to the touch sequence.
+  //
+  // This parameter only affects the intermediate scores during the decoder's
+  // search, not the scores in the final results. However, setting this weight
+  // too high may cause the decoder to prematurely prune rare prefixes, make
+  // some terms completely ungesturable.
+  optional float prefix_lm_weight = 8 [default = 0.5];
+
+  // The backoff penalty when there is no language model score for the decoded
+  // term(s) and the decoder backs off unigram logp from the lexicon.
+  optional float lexicon_unigram_backoff = 9 [default = -5.0];
+
+  // Spatial model parameters for gesture input.
+  optional GestureSpatialParams gesture_params = 10;
+
+  // Spatial model parameters for tap typing input.
+  optional TapSpatialParams tap_params = 11;
+
+  // The maximum number of multi-term terminal tokens considered each time
+  // tokens are passed to the next time frame.
+  optional int32 max_multi_term_terminals = 12 [default = 10];
+
+  // A token must score higher than this value to be considered, otherwise it
+  // will be pruned from the search.
+  optional float score_to_beat_absolute = 13 [default = -inf];
+}

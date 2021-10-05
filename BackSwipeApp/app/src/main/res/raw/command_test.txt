@@ -1,0 +1,12 @@
+camera
+help
+delete
+download
+edit
+file
+keyboard
+mail
+share
+rotate
+search
+clock

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SimpleGestureInput</string>
+    <string name="decode_finish">Decode Complete</string>
+    <string name="user_id">User ID</string>
+    <string name="test_type">Test Type</string>
+    <string name="sentence_resource">Sentence Resource</string>
+    <string name="server_host">Server Host</string>
+    <string name="server_port">Server Port</string>
+    <string name="is_demo">IS_DEMO</string>
+
+    <string name="sentence_test">Sentence Input Test</string>
+    <string name="command_test">Command Input Test</string>
+
+    <string name="button_demo">Demo</string>
+    <string name="button_test">Test</string>
+    <string name="button_warm_up">Warm up</string>
+
+    <string name="menu_bundle">Command Input Test</string>
+</resources>

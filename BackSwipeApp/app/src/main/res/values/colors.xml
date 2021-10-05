@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#7986cb</color>
+    <color name="primaryLightColor">#aab6fe</color>
+    <color name="primaryDarkColor">#49599a</color>
+    <!--<color name="secondaryColor">#696969</color>-->
+    <!--<color name="secondaryLightColor">#696969</color>-->
+    <!--<color name="secondaryDarkColor">#696969</color>-->
+    <color name="secondaryColor">#9ccc65</color>
+    <color name="secondaryLightColor">#cfff95</color>
+    <color name="secondaryDarkColor">#6b9b37</color>
+    <color name="tertiaryColor">#ef9a9a</color>
+    <color name="tertiaryLightColor">#ffcccb</color>
+    <color name="thirdDarkColor">#ba6b6c</color>
+    <color name="primaryTextColor">#f5f5f5</color>
+    <color name="secondaryTextColor">#454545</color>
+    <color name="lightTextColor">#bbbbbb</color>
+    <color name="gmailColor">#D44638</color>
+
+
+    <color name="thirdTextColor">#696969</color>
+    <color name="buttonTextColor">#696969</color>
+    <color name="buttonBackgroundColor">#ffffff</color>
+
+    <color name="transparent">#00000000</color>
+
+
+    <color name="status_hearing">#7B1FA2</color>
+    <color name="status_not_hearing">#757575</color>
+    <color name="status_final_text">#0000574B</color>
+</resources>

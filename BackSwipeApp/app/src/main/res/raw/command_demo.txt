@@ -1,0 +1,14 @@
+network
+calculator
+recent
+weather
+zoom
+copy
+cut
+print
+photo
+message
+contact
+night
+sound
+flashlight

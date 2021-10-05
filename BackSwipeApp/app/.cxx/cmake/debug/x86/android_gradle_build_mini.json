@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/build/cmake/platforms.cmake",
+    "/Users/cuiwenzhe/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake",
+    "/Users/cuiwenzhe/AndroidStudioProjects/BackSwipe/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/cuiwenzhe/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/cuiwenzhe/AndroidStudioProjects/BackSwipe/app/.cxx/cmake/debug/x86\" clean"
+  ],
+  "buildTargetsCommand": "/Users/cuiwenzhe/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/cuiwenzhe/AndroidStudioProjects/BackSwipe/app/.cxx/cmake/debug/x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "gesture-decoder-lib-Debug-x86": {
+      "artifactName": "gesture-decoder-lib",
+      "buildCommand": "/Users/cuiwenzhe/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/cuiwenzhe/AndroidStudioProjects/BackSwipe/app/.cxx/cmake/debug/x86\" gesture-decoder-lib",
+      "abi": "x86",
+      "output": "/Users/cuiwenzhe/AndroidStudioProjects/BackSwipe/app/build/intermediates/cmake/debug/obj/x86/libgesture-decoder-lib.so",
+      "runtimeFiles": []
+    }
+  }
+}
